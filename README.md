@@ -2,22 +2,14 @@
 
 This is a simple login and sign up page made using typescript and react using formik for form handling and validation.
 
-## Design Choices Made
+### Design Choices Explained
 
-- **React & TypeScript**: Used for efficient rendering and type safety.
-- **CSS for Styling**: Custom styles are written in CSS for simplicity and flexibility.
-- **State Management**: State is managed using React hooks to keep the code modular and easy to manage.
-- **Component-Based Architecture:**: The UI is broken down into reusable components, making the code scalable and maintainable.
+- **React & TypeScript**: We chose React for its fast rendering capabilities and TypeScript to catch errors early and ensure code reliability. Together, they make the development process smoother and more robust.  
+- **CSS Styling**: Custom CSS was used for styling to keep the design simple and adaptable while maintaining full control over the visual appearance.  
+- **State Management**: React hooks like `useState` and `useEffect` are used to handle state, making the code more readable and easier to maintain.  
+- **Reusable Components**: The interface is divided into smaller, reusable pieces. This approach keeps the code organized and allows for easier updates or additions in the future.
   
-## Assumptions
 
-- **Node.js Version**: Node.js version 14+ is installed.
-- **APIs**: All required APIs are accessible and properly configured.
-  
-## Limitations
-
-- **Backend**: Currently, there is no back-end server implemented.
-- **React Version**: The application may require updates to stay compatible with future versions of React.
   
 ## Installation
 
@@ -26,41 +18,21 @@ Follow these steps to set up and run the project locally:
 ### Prerequisites
 
 Make sure you have the following installed:
-- Node.js (LTS version recommended)
 - npm or yarn
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/harshal-1/Better
+git clone https://github.com/bhunesh1/assignment
 ```
 Install Dependencies
 Navigate to the project directory and install the dependencies:
 
 Using npm:
-
-```bash
-cd better
 npm install
-```
 
-Using yarn:
-
-```bash
-cd better
-yarn install
-```
-Run the Application
 After installing the dependencies, start the application:
-
-Using npm:
-```bash
 npm start
-```
 
-Using yarn:
-```bash
-yarn start
-```
 
 This will start the development server, and you can view the app by navigating to http://localhost:3000 in your browser.
